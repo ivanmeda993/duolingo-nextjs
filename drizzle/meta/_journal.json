@@ -8,6 +8,13 @@
       "when": 1713297899178,
       "tag": "0000_normal_magus",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1713883853459,
+      "tag": "0001_wakeful_pandemic",
+      "breakpoints": true
     }
   ]
 }

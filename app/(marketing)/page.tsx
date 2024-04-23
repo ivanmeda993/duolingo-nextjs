@@ -27,19 +27,15 @@ const MarketingPage = () => {
           </ClerkLoading>
           <ClerkLoaded>
             <SignedOut>
-              <SignUpButton
-                mode="modal"
-                afterSignInUrl="/learn"
-                afterSignUpUrl="/learn"
-              >
+              <SignUpButton mode="modal">
                 <Button size="lg" variant="secondary" className="w-full">
                   Get Started
                 </Button>
               </SignUpButton>
               <SignInButton
                 mode="modal"
-                afterSignInUrl="/learn"
-                afterSignUpUrl="/learn"
+                signUpFallbackRedirectUrl="/learn"
+                fallbackRedirectUrl="/learn"
               >
                 <Button size="lg" variant="primaryOutline" className="w-full">
                   I already have an account

@@ -27,9 +27,15 @@ const MarketingPage = () => {
           </ClerkLoading>
           <ClerkLoaded>
             <SignedOut>
-              <SignUpButton mode="modal">
+              <SignUpButton
+                mode="modal"
+                signInFallbackRedirectUrl="/learn"
+                fallbackRedirectUrl="/learn"
+                signInForceRedirectUrl="/learn"
+                forceRedirectUrl="/learn"
+              >
                 <Button size="lg" variant="secondary" className="w-full">
-                  Get Started
+                  Get Startedddd
                 </Button>
               </SignUpButton>
               <SignInButton
